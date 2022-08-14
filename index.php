@@ -153,5 +153,22 @@
   $tartarughe[] = 'ciao';
   print_r($tartarughe);
 
-  // altri metodi: array_push, array_unshift, array_pop, array_shift, unset
+  // altri metodi: array_push, array_unshift, 
+  // array_pop, array_shift, unset, array_chunk, array_keys, array_flip
+  // range, array_map, array_filter, array_reduce
+  $a1 = [1,2];
+  $a2 = [3,4];
+  $a3 = array_merge($a1, $a2);
+  $a4 = [...$a1, ...$a2];
+
+  var_dump($a3);
+  var_dump($a4);
+?>
+
+<?php
+  // STRING FUNCTIONS
+  // string functions list:
+  // strlen, strpos, strrpos, strrev, strtolower,
+  // strtoupper, ucwords, str_replace, substr, str_starts_with,
+  // htmlentities, printf
 ?>
