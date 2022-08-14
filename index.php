@@ -4,4 +4,7 @@
   echo "oh";
   echo "<br/>";
   print_r([1,2,3]);
+  echo "<br/>";
 ?>
+
+<?= 'Post'; ?>
